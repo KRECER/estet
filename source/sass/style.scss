@@ -1,0 +1,9 @@
+@import "../../node_modules/normalize.scss/normalize.scss";
+@import "slick.scss";
+@import "slick-theme.scss";
+@import "fonts.scss";
+@import "variables.scss";
+@import "mixins.scss";
+@import "default.scss";
+
+@import 'blocks/**/*.scss';

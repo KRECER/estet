@@ -1,0 +1,147 @@
+.seo {
+  padding-left: 35px;
+  padding-right: 35px;
+
+  background-color: #ffffff;
+}
+
+.seo__wrapper {
+  padding-top: 45px;
+  padding-bottom: 70px;
+}
+
+.seo__title {
+  margin-bottom: 40px;
+
+  font-size: 19px;
+  line-height: 23px;
+  color: #0b1017;
+  font-weight: 300;
+  text-align: center;
+}
+
+.seo__list {
+  @include reset-list();
+}
+
+.seo__img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.seo__name {
+  display: block;
+  margin-bottom: 20px;
+
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.slick-track {
+	display: flex;
+	flex-basis: 200px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.seo__item {
+	color: #6a6a6a;
+}
+
+.seo__item p {
+  margin: 0;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+ul.seo__description {
+  padding-left: 16px;
+}
+
+@media #{$tablet-width} {
+  .seo {
+    padding: 0;
+  }
+
+   .seo__wrapper {
+     width: 750px;
+     margin: 0 auto;
+   }
+
+   .seo__btn-prev,
+   .seo__btn-next {
+    width: 31px;
+    height: 131px;
+
+    background-repeat: no-repeat;
+   }
+
+   .seo__btn-prev {
+    left: 10px;
+
+    background-image: url("../img/seo/arrow-prev.png");
+  }
+
+   .seo__btn-next {
+     right: 10px;
+     
+     background-image: url("../img/seo/arrow-next.png");
+  }
+
+   .seo__title {
+     font-size: 30px;
+     line-height: 45px;
+   }
+
+   .seo__list  {
+    padding-left: 100px;
+    padding-right: 100px;
+	 }
+	 
+	 .seo__list .slick-track {
+		align-items: center;
+   }
+
+   .seo__item {
+     display: flex !important;
+     justify-content: space-between;
+     align-items: center;
+    
+   }
+
+   .seo__text {
+		 order: -1;
+		 width: 300px;
+   }
+
+   .seo__description {
+     font-size: 16px;
+     line-height: 30px;
+   }
+}
+
+@media #{$desktop-width} {
+  .seo__wrapper {
+    width: 815px;
+  }
+
+  .seo__btn-prev {
+    left: -175px;
+  }
+
+  .seo__btn-next {
+    right: -175px;
+  }
+
+  .seo__list {
+    padding-left: 0;
+    padding-right: 0;
+	}
+	
+	.seo__text {
+		width: 400px;
+	}
+}

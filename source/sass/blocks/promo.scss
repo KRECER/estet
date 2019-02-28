@@ -1,0 +1,143 @@
+.promo {
+  padding: 35px 20px;
+
+  background-image: url("../img/promo/background-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.promo__title {
+  margin: 0;
+  margin-bottom: 20px;
+  
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.promo__description {
+  width: 283px;
+  margin: 0 auto;
+  margin-bottom: 321px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #a3a5a7;
+  text-align: center;
+}
+
+.promo__list {
+  @include reset-list();
+}
+
+.promo__list .slick-track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo__item {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.promo__item p {
+  position: relative;
+
+  padding-top: 50px;
+
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url("../img/promo/icon-check.png");
+    background-repeat: no-repeat;
+  }
+}
+
+@media #{$tablet-width} {
+  .promo {
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 80px;
+    background-position-y: 290px;
+  }
+
+  .promo__title {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .promo__description {
+    width: 697px;
+
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .promo__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .promo__item {
+    margin-bottom: 60px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .promo__item p {
+    width: 226px;
+    padding-top: 0;
+    padding-left: 45px;
+    margin: 0;
+
+    text-align: left;
+
+    &::before {
+      left: 0;
+      transform: translateX(0);
+    }
+  }
+}
+
+@media #{$desktop-width} {
+  .promo {
+    width: 1170px;
+
+    background-image: url("../img/promo/background-desktop.png");
+    background-position-y: 306px;
+  }
+
+  .promo__list {
+    padding-top: 220px;
+  }
+
+  .promo__item {
+    width: 209px;
+
+    &--fluid {
+      width: 76%;
+    }
+  }
+
+  .promo__description {
+    margin-bottom: 0;
+  }
+
+  .promo__item p {
+    width: 209px;
+  }
+}

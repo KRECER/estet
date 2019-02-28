@@ -1,0 +1,35 @@
+.slider {
+  @include reset-list();
+}
+
+.slider__item {
+  display: block;
+}
+
+.slick-dots {
+  bottom: -50px;
+}
+
+.slick-dots .slick-active {
+  border-radius: 50%;
+	border: 1px solid #fff;
+}
+
+.slick-dots button::before {
+  font-size: 30px !important;
+  color: #ffffff !important;
+}
+
+.seo .slick-dots .slick-active button {
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.seo .slick-dots button::before {
+  font-size: 30px !important;
+  color: #000 !important;
+}
+
+.slick-slide:not(.slick-active) {
+  opacity: 0.3;
+}

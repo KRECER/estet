@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style-min.css">
+</head>
+
+<body>
+	<div style="display:none">
+		<include src="build/img/sprite.svg"></include>
+	</div>
+	<main class="page-main">
+		<div class="page-main__cs-cart">
+			<img src="img/cs-cart.png" alt="cs-cart">
+		</div>
+		<section class="intro">
+			<div class="intro__left">
+				<p>Идеальное решение для старта <br> вашего бизнеса</p>
+			</div>
+			<div class="intro__wrapper">
+				<picture>
+					<source srcset="img/cartbox.webp" type="image/webp">
+					<img class="intro__img" src="img/cartbox.png" alt="cartbox" width="129" height="32">
+				</picture>
+				<h2 class="intro__title">Современные, Эффективные решения для Украинского E-Commerce</h2>
+				<div class="intro__text">На базе CS Cart</div>
+				<picture>
+					<source media="(min-width: 768px)" srcset="img/mockup-desktop.webp" type="image/webp">
+					<source media="(min-width: 768px)" srcset="img/mockup-desktop.png">
+					<source srcset="img/mockup-mobile.webp" type="image/webp">
+					<img src="img/mockup-mobile.png" alt="mockup" class="intro__mockup" width="290" height="154">
+				</picture>
+				<p class="intro__description">Решение для среднего и малого бизнеса <br> в сети интернет-магазин в связке <br>
+					с CRM + ERP</p>
+				<div class="intro__btn">
+					<a class="button" href="#">Демо версия CartBox</a>
+				</div>
+			</div>
+			<div class="intro__right">
+				<p>Cartbox умеет все, что нужно современному <br> интернет магазину</p>
+			</div>
+		</section>
+		<section class="pages">
+			<h2 class="pages__title">Продуманный UX и cтильный адаптивный <br> дизайн <br> интерфейса</h2>
+			<ul class="pages__list slider">
+				<li class="pages__item slider__item"><img src="img/pages/home-page.jpg" alt="home-page"></li>
+				<li class="pages__item  slider__item"><img src="img/pages/catalog-page.jpg" alt="catalog-page"></li>
+				<li class="pages__item  slider__item"><img src="img/pages/product-page.jpg" alt="product-page"></li>
+				<li class="pages__item  slider__item"><img src="img/pages/cart-page.jpg" alt="cart-page"></li>
+				<li class="pages__item  slider__item"><img src="img/pages/order-list.jpg" alt="order-list"></li>
+				<li class="pages__item  slider__item"><img src="img/pages/registration-page.jpg" alt="egistration-page"></li>
+			</ul>
+		</section>
+		<section class="promo">
+			<h2 class="promo__title">Промо правила и акции</h2>
+			<p class="promo__description">Интернет Магазин предусматривает продвинутую систему по настройке правил
+				формирования Скидок и Акционных предложений. Крутость в том, что вы самостоятельно можете настраивать правила.
+				Рассмотрим пару примеров:</p>
+			<ul class="promo__list">
+				<li class="promo__item promo__item--fluid">
+					<p>Вы можете предложить скидку на заказ, если в корзине есть определенные товары или сумма заказа
+						достиглаопределенной суммы.</p>
+				</li>
+				<li class="promo__item">
+					<p>Вы можете сделать скидку на все товары одного производителя, или другой характеристики</p>
+				</li>
+				<li class="promo__item promo__item--fluid">
+					<p>Вы можете предложить бесплатный товар/подарок к товару или заказу</p>
+				</li>
+				<li class="promo__item">
+					<p>Вы можете настроить бонусную систему и позволить покупать товары за бонусы</p>
+				</li>
+				<li class="promo__item">
+					<p>Вы можете предложить скидку на первую покупку</p>
+				</li>
+				<li class="promo__item">
+					<p>Вы можете назначить разные % скидки своим покупателям</p>
+				</li>
+				<li class="promo__item">
+					<p>Вы можете подарить подарочный сертификат</p>
+				</li>
+				<li class="promo__item">
+					<p>Вы можете сделать бесплатную доставку для товара или заказа</p>
+				</li>
+				<li class="promo__item">
+					<p>Вы можете создать промокод с разным процентом скидки</p>
+				</li>
+			</ul>
+		</section>
+		<section class="tabs">
+			<button class="tabs__btn tabs__btn--active button" type="button">Маркетинг</button>
+			<div class="tabs__content tabs__content--show">
+				<div class="tabs__inner">
+					<h2 class="tabs__title">Маркетинг</h2>
+					<p class="tabs__description">Продвинутые настройки Акций и Скидок. Система лояльности и бонусные балы</p>
+					<ul class="tabs__list">
+						<li class="tabs__item">
+							<svg class="tabs__icon">
+								<use xlink:href="#icon-promo"></use>
+							</svg>
+							Промо-коды и <br> сертификаты
+						</li>
+						<li class="tabs__item">
+							<svg class="tabs__icon">
+								<use xlink:href="#icon-banner"></use>
+							</svg>
+							Баннеры и <br> Поп-апы
+						</li>
+						<li class="tabs__item">
+							<svg class="tabs__icon">
+								<use xlink:href="#icon-stick"></use>
+							</svg>
+							Товарные <br> стикеры
+						</li>
+					</ul>
+				</div>
+				<picture>
+					<source media="(min-width: 1200px)" srcset="img/tabs/marketing-desktop.png">
+					<img class="tabs__img" src="img/tabs/marketing-mobile.png" alt="marketing" width="254" height="228">
+				</picture>
+			</div>
+
+			<button class="tabs__btn button" type="button">Корзина</button>
+			<div class="tabs__content">
+				<div class="tabs__inner">
+					<h2 class="tabs__title">Корзина</h2>
+					<p class="tabs__description">Удобная страница оформления заказа</p>
+					<ul class="tabs__list">
+						<li class="tabs__item">
+							<svg class="tabs__icon">
+								<use xlink:href="#icon-payment"></use>
+							</svg>
+							Варианты оплаты: Visa / Master Card, Privat 24, LiqPay, PayPal
+						</li>
+						<li class="tabs__item">
+							<svg class="tabs__icon">
+								<use xlink:href="#icon-delivery"></use>
+							</svg>
+							Службы доставки, API Новой почты и Укр почты
+						</li>
+						<li class="tabs__item">
+							<svg class="tabs__icon">
+								<use xlink:href="#icon-sms"></use>
+							</svg>
+							SMS уведомления
+						</li>
+					</ul>
+				</div>
+				<picture>
+					<img class="tabs__img" src="img/tabs/basket.jpg" alt="basket" width="254" height="228">
+				</picture>
+			</div>
+
+			<button class="tabs__btn button" type="button">Аналитика</button>
+			<div class="tabs__content">
+				<div class="tabs__inner">
+					<h2 class="tabs__title">Аналитика</h2>
+					<p class="tabs__description">Отслеживание электронной торговли</p>
+					<ul class="tabs__list">
+						<li class="tabs__item">
+							<svg class="tabs__icon">
+								<use xlink:href="#icon-google-analytics"></use>
+							</svg>
+							Учет транзакций в Google Analytics
+						</li>
+						<li class="tabs__item">
+							<svg class="tabs__icon">
+								<use xlink:href="#icon-smtp"></use>
+							</svg>
+							SMTP для Е-mail маркетинга
+						</li>
+						<li class="tabs__item">
+							<svg class="tabs__icon">
+								<use xlink:href="#icon-crm+erp"></use>
+							</svg>
+							Скоро: финансовый учет в CRM+ERP
+						</li>
+					</ul>
+				</div>
+				<picture>
+					<img class="tabs__img" src="img/tabs/analytics.jpg" alt="analytics" width="254" height="228">
+				</picture>
+		</section>
+		<section class="data">
+			<h2 class="data__title">Обмен данными интернет-магазина <br> с другой системой</h2>
+			<ul class="data__list">
+				<li class="data__item data__item--api">Интернет магазин предусматривает разные виды и форматы обмена данными:
+					csv, xml, json, API, mysql и другие, что позволяет гибко настраивать сторонние интеграции на прием и отдачу
+					данных.</li>
+				<li class="data__item data__item--1c">Интеграция Интернет магазина с 1С уже настроена, через модуль обмена
+					данными в 1С 8 и выше, нужно только настроить шлюз.</li>
+			</ul>
+			<button class="data__btn button" type="button">Демо вресия CartBox</button>
+		</section>
+		<section class="seo">
+			<div class="seo__wrapper">
+				<h2 class="seo__title">Внутренняя SEO оптимизация <br> интернет - магазина</h2>
+				<ul class="seo__list">
+					<li class="seo__item">
+						<picture>
+							<source media="(min-width: 768px)" srcset="img/seo/setting-desktop.png">
+							<img class="seo__img" src="img/seo/setting.png" alt="setting" width="290" height="333">
+						</picture>
+						<div class="seo__text">
+							<b class="seo__name">Простая настройка магазина</b>
+							<p class="seo__description">
+								1. Кастомный код в /head и &lt;body&gt; <br>
+								2. Настройка robots.txt <br>
+								3. Настойка 301 редиректов
+							</p>
+						</div>
+					</li>
+					<li class="seo__item">
+						<picture>
+							<source media="(min-width: 768px)" srcset="img/seo/map.webp" type="image/webp">
+							<img class="seo__img" src="img/seo/map.jpg" alt="map" width="290" height="333">
+						</picture>
+						<div class="seo__text">
+							<b class="seo__name">Карта сайта</b>
+							<p class="seo__description">
+								Интернет магазин содержит две версии карты сайта html и xml.
+							</p>
+						</div>
+					</li>
+					<li class="seo__item">
+						<picture>
+							<img class="seo__img" src="img/seo/meta.jpg" alt="map" width="290" height="333">
+						</picture>
+						<div class="seo__text">
+							<b class="seo__name">Редактирование <br> метаданных и ЧПУ</b>
+							<p>Две возможности редактирования</p>
+							<ul class="seo__description">
+								<li>Вручную</li>
+								<li>Настройка шаблона автоматической генерации для: категории, карточки товара, фильтры</li>
+							</ul>
+						</div>
+					</li>
+					<li class="seo__item">
+						<picture>
+							<img class="seo__img" src="img/seo/duplicate.jpg" alt="duplicate" width="290" height="333">
+						</picture>
+						<div class="seo__text">
+							<b class="seo__name">Убраны дубли контента</b>
+							<p class="seo__description">
+								При пагинации и фильтрации товаров, так же настроены атрибуты rel canonical и rel prev next.
+							</p>
+						</div>
+					</li>
+					<li class="seo__item">
+						<picture>
+							<img class="seo__img" src="img/seo/pagespeed.jpg" alt="duplicate" width="290" height="333">
+						</picture>
+						<div class="seo__text">
+							<b class="seo__name">PageSpeed</b>
+							<p class="seo__description">
+								Интернет магазин полностью оптимизирован под требования к скорости загрузки и удобства на мобильных
+								устройствах.
+							</p>
+						</div>
+					</li>
+					<li class="seo__item">
+						<picture>
+							<img class="seo__img" src="img/seo/google-rich.jpg" alt="pagespeed" width="290" height="333">
+						</picture>
+						<div class="seo__text">
+							<b class="seo__name">Google Rich Snippets</b>
+							<p class="seo__description">
+								Интернет Магазин поддерживает микроразметку, что позволяет увеличить CTR в поисковой выдаче
+							</p>
+						</div>
+					</li>
+					<li class="seo__item">
+						<picture>
+							<source srcset="img/seo/blog.webp" type="image/webp">
+							<img class="seo__img" src="img/seo/blog.jpg" alt="setting" width="290" height="333">
+						</picture>
+						<div class="seo__text">
+							<b class="seo__name">Блог</b>
+							<p class="seo__description">
+								Интернет Магазин полностью готов к контент маркетингу и увеличению посещаемости.
+							</p>
+						</div>
+					</li>
+					<li class="seo__item">
+						<picture>
+							<source srcset="img/seo/https.webp" type="image/webp">
+							<img class="seo__img" src="img/seo/https.jpg" alt="setting" width="290" height="333">
+						</picture>
+						<div class="seo__text">
+							<b class="seo__name">Https, ssl сертификат</b>
+							<p class="seo__description">
+								Криптографический протокол, который обеспечивает более защищенную связь пользователей с интернет магазином.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="lead">
+			<div class="lead__left">
+				<div class="lead__content">
+					<b class="lead__title">Работа с лидами и пользователями магазина</b>
+					<ul class="lead__list">
+						<li class="lead__item">1. Привлечь лида</li>
+						<li class="lead__item">2. Удержать лида</li>
+						<li class="lead__item">3. Склонить к сделке</li>
+						<li class="lead__item">4. Вернуть на повторную сделку</li>
+					</ul>
+					<a class="lead__btn button" href="#">Демо версия CartBox</a>
+				</div>
+			</div>
+			<div class="lead__right">
+				<div class="lead__content">
+					<b class="lead__title ">На каждом этапе нужные свои инструменты и хитрости:</b>
+					<ul class="lead__list">
+						<li class="lead__item lead__item--circle">Для привлечения теплых лидов — выгрузка товаров на торговые площадки:
+							Hotline,
+							Price.ua, Vcene, Nadavi, Prom.ua, Bigl.ua</li>
+						<li class="lead__item lead__item--circle">Для удержания — Торговый ремаркетинг от Google, FaceBook и Push
+							уведомления</li>
+						<li class="lead__item lead__item--circle">Для усиления сделки — Маркетинговые инструменты</li>
+						<li class="lead__item lead__item--circle">Для возврата — Автоматизированные и продуманные e-mail письма</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="advantages">
+			<h2 class="advantages__title">Зачем работать с нами если есть <br> много других студий ?</h2>
+			<ul class="advantages__list slider">
+				<li class="advantages__item advantages__item--ux">
+					<b class="advantages__name">Опыт</b>
+					<p class="advantages__description">Мы лично прошли весь путь от идеи до прибыльного проекта, попадая в разные
+						ситуации — но шли дальше, поэтому понимаем, что важно, а что нет!</p>
+				</li>
+				<li class="advantages__item advantages__item--functional">
+					<b class="advantages__name">Необходимый <br> функционал</b>
+					<p class="advantages__description">Мы собрали оптимально-необходимый функционал для Маркетинговых задач
+						современного интернет — магазина.</p>
+				</li>
+				<li class="advantages__item advantages__item--time">
+					<b class="advantages__name">Время = Деньги</b>
+					<p class="advantages__description">Мы понимаем как важно запустить проект в срок, чтоб не упустить деньги!</p>
+				</li>
+				<li class="advantages__item advantages__item--decision">
+					<b class="advantages__name">Индивидуальное <br> решение</b>
+					<p class="advantages__description">Мы готовы придумывать, разрабатывать и поддерживать индивидуальные задачи, а не
+						зацикливать проект в рамках возможностей CMS.</p>
+				</li>
+				<li class="advantages__item advantages__item--analytics">
+					<b class="advantages__name">Аналитика</b>
+					<p class="advantages__description">Мы помогаем анализировать и оптимизировать ваши рекламные и бизнес процессы с
+						помощью CRM + ERP</p>
+				</li>
+				<li class="advantages__item advantages__item--introductions">
+					<b class="advantages__name">Обоснованные <br> внедрения</b>
+					<p class="advantages__description">Мы рекомендуем внедрять решения, которые подходят по вашей бизнес модели, а не
+						все подряд по чек листу с интернета.</p>
+				</li>
+			</ul>
+		</section>
+		<section class="opportunities">
+			<div class="opportunities__wrapper">
+				<h2 class="opportunities__title">Новые возможности</h2>
+				<span class="opportunities__soon">совсем скоро</span>
+				<ul class="opportunities__list slider">
+					<li class="opportunities__item">
+						<svg class="opportunities__icon">
+							<use xlink:href="#icon-crm"></use>
+						</svg>
+						<div>
+							<b class="opportunities__name">CRM + ERP</b>
+							<p class="opportunities__description">Многофункциональная аналитическая среда, которая наглядно укажет на Факапы
+								в процессах и позволит оптимизировать их.</p>
+						</div>
+					</li>
+					<li class="opportunities__item">
+						<svg class="opportunities__icon">
+							<use xlink:href="#icon-dynamic"></use>
+						</svg>
+						<div>
+							<b class="opportunities__name">SEO для динамических страниц</b>
+							<p class="opportunities__description">Поиска и Фильтра — Функционал позволит анализировать поиск и частое
+								использования фильтров и готовить из таких страниц посадочные, что позволит привлечь новых лидов из SERPa и
+								прямой рекламы.</p>
+						</div>
+					</li>
+					<li class="opportunities__item">
+						<svg class="opportunities__icon">
+							<use xlink:href="#icon-relink"></use>
+						</svg>
+						<div>
+							<b class="opportunities__name">SEO перелинковка страниц сайта</b>
+							<p class="opportunities__description">Функционал позволит значительно увеличить количество фраз в поисковой
+								выдаче. Рекомендуемый инструмент serpstat.com</p>
+						</div>
+					</li>
+					<li class="opportunities__item">
+						<svg class="opportunities__icon">
+							<use xlink:href="#icon-search"></use>
+						</svg>
+						<div>
+							<b class="opportunities__name">Удобный выпадающий поиск</b>
+							<p class="opportunities__description">Это UX фича позволит пользователям значительно быстрее находить
+								интересующий их товар, по разным параметрам.</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="technology">
+			<div class="technology__wrapper">
+				<h2 class="technology__title">Технологии</h2>
+				<p class="technology__description">Методология работы с клиентами <br> по Agile c нотками Scrum : )</p>
+				<ul class="technology__list">
+					<li class="technology__item">
+						<img src="img/technology/php.png" alt="php">
+					</li>
+					<li class="technology__item">
+						<img src="img/technology/slim.png" alt="slim">
+					</li>
+					<li class="technology__item">
+						<img src="img/technology/html-css.png" alt="html-css">
+					</li>
+					<li class="technology__item">
+						<img src="img/technology/cscart.png" alt="cscart">
+					</li>
+					<li class="technology__item">
+						<img src="img/technology/yii.png" alt="yii">
+					</li>
+					<li class="technology__item">
+						<img src="img/technology/nginx.png" alt="nginx">
+					</li>
+					<li class="technology__item">
+						<img src="img/technology/elastic.png" alt="elastic">
+					</li>
+				</ul>
+			</div>
+			<div class="technology__btn">
+				<a class="button" href="#">Демо версия CartBox</a>
+			</div>
+		</section>
+		<section class="services">
+			<div class="services__wrapper">
+				<h2 class="services__title">Мы всегда открыты к <br> взаимовыгодному сотрудничеству <br> и партнерству</h2>
+				<ul class="services__list slider">
+					<li class="services__item">
+						<b class="services__plan">Start +</b>
+						<div class="services__text">Отличное решение <br> для старта</div>
+						<ul class="services__description-list services__description-list--start">
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>Установка движка и шаблона</li>
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>помощь в заполнении контента </li>
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>20 часов под консультации</li>
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>Незначительные визуальные правки сайта. </li>
+						</ul>
+						<div class="services__data-price">
+							от <span class="services__price">1’200<sup>$</sup></span> <br>
+							<span class="services__month">до 1-го месяца</span>
+						</div>
+					</li>
+					<li class="services__item services__item--top">
+						<b class="services__plan">Bussiness</b>
+						<div class="services__text">Для больших <br> интернет-магазинов</div>
+						<ul class="services__description-list services__description-list--bussiness">
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>помощь в заполнении контента</li>
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>консультации по сайту</li>
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>визуальные правки сайта</li>
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>незначительные правки программной части</li>
+						</ul>
+						<div class="services__data-price">
+							от <span class="services__price">3’500<sup>$</sup></span> <br>
+							<span class="services__month">около 2x месяцев</span>
+						</div>
+					</li>
+					<li class="services__item">
+						<b class="services__plan">Ultimate</b>
+						<div class="services__text">Для больших <br> интернет-магазинов</div>
+						<ul class="services__description-list services__description-list--ultimate">
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>Установка движка и шаблона</li>
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>помощь в заполнении контента </li>
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>20 часов под консультации</li>
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>правки программной части</li>
+							<li><svg class="services__icon">
+									<use xlink:href="#icon-checked"></use>
+								</svg>разработка новых модулей и страниц </li>
+						</ul>
+						<div class="services__data-price">
+							от <span class="services__price">7’000<sup>$</sup></span> <br>
+							<span class="services__month">от 4x месяцев</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<a class="page-main__btn button button--cartbox" href="#">
+			<svg class="button__icon-cartbox">
+				<use xlink:href="#icon-cartbox"></use>
+			</svg>
+			<span>Оформить заявку</span> <br> на cartbox
+		</a>
+		<section class="works">
+			<div class="works__wrapper">
+				<h2 class="works__title">Примеры наших работ</h2>
+				<a class="works__to-all button link_all" href="#">Ко всем проектам</a>
+			</div>
+			<ul class="works__list">
+				<a class="works__item" href="#">
+					<img class="works__img" src="img/works/work-1.jpg" alt="work-1">
+					<b class="works__name">разработка сайта поэта александра коротко</b>
+					<time class="works__date" datetime="10.05.2018">июнь 2018</time>
+				</a>
+				<a class="works__item" href="#">
+					<img class="works__img" src="img/works/work-1.jpg" alt="work-1">
+					<b class="works__name">разработка сайта поэта александра коротко</b>
+					<time class="works__date" datetime="10.05.2018">июнь 2018</time>
+				</a>
+				<a class="works__item" href="#">
+					<img class="works__img" src="img/works/work-1.jpg" alt="work-1">
+					<b class="works__name">разработка сайта поэта александра коротко</b>
+					<time class="works__date" datetime="10.05.2018">июнь 2018</time>
+				</a>
+				<a class="works__item" href="#">
+					<img class="works__img" src="img/works/work-1.jpg" alt="work-1">
+					<b class="works__name">разработка сайта поэта александра коротко</b>
+					<time class="works__date" datetime="10.05.2018">июнь 2018</time>
+				</a>
+				<a class="works__item" href="#">
+					<img class="works__img" src="img/works/work-1.jpg" alt="work-1">
+					<b class="works__name">разработка сайта поэта александра коротко</b>
+					<time class="works__date" datetime="10.05.2018">июнь 2018</time>
+				</a>
+			</ul>
+		</section>
+	</main>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

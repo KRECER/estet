@@ -1,0 +1,40 @@
+.button {
+  position: relative;
+
+  display: inline-block;
+  padding: 15px 30px;
+
+  color: #000000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+
+  background-color: #dfa04b;
+  border: none; 
+
+  &:hover {
+    cursor: pointer;
+	}
+
+	&--cartbox {
+		padding-left: 95px;
+	}
+}
+
+.button--cartbox span {
+	font-weight: 700;
+	color: #e4a44e;
+	text-transform: uppercase;
+}
+
+.button__icon-cartbox {
+	position: absolute;
+	top: 50%;
+	left: 32px;
+	transform: translateY(-50%);
+
+	width: 41px;
+	height: 37px;
+
+	fill: #DFA04B;
+}

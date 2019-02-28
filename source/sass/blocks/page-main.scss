@@ -1,0 +1,36 @@
+.page-main {
+	position: relative;
+}
+
+.page-main * {
+	box-sizing: border-box;
+}
+
+.page-main__cs-cart {
+	display: none;
+  position: absolute;
+  right: 83px;
+  top: -46px;
+}
+
+.page-main__btn {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 90px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+	color: #868686;
+	font-size: 15px;
+	line-height: 1.3;
+	background-color: transparent;
+	border: 1px solid #2e333b;
+}
+
+@media #{$desktop-width} {
+	.page-main__cs-cart {
+		display: block;
+	}
+}
